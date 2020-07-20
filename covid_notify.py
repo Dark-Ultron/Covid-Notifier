@@ -9,7 +9,7 @@ def notify_me(title, msg):
     notification.notify(
         title=title,
         message=msg,
-        app_icon='C:\\Users\\nisha\\PycharmProjects\\PyCodes\\virus.ico',
+        app_icon='virus.ico',
         timeout=10,
         ticker='just testing'
     )
